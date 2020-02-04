@@ -16,14 +16,14 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Dana Nguyen"
+title: "Home"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Dana Nguyen"
-description: "An amazing website."
-url: "https://dananguyenucsb.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description: "dana nguyen"
+url: "https://dananguyenucsb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "dananguyenucsb/dananguyenucsb.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -107,8 +107,9 @@ analytics:
 # Site Author
 author:
   name: "Dana Nguyen"
-  avatar: "images/dana_prof.jpg"
-  bio: "Researcher, MS Student @ UCSB"
+  avatar: "/assets/images/dana_sit.jpg"
+  bio:
+    "Researcher, MS Student @ UCSB"
     # Former Research Intern @ Microsoft \
     # Former Technical Intern @ Intel \
     # Former Engineer Intern @ NASA" # Note: Markdown is allowed
@@ -117,12 +118,13 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=QyiJ9LYAAAAJ"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/dananguyen"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+
 # Site Footer
 footer:
   links:
